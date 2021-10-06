@@ -1,0 +1,59 @@
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+body {
+          background-color: #ccc;
+}
+.main {
+          width: 100%;
+}
+.navbar {
+          max-width: 100%;
+          background-color: #333;
+          padding: 2rem;
+          color: #fff;
+          font-size: 3rem;
+          text-align: center;
+}
+.candidats-container {
+          width: 30%;
+          margin: 60px auto;
+          border: 1px solid #ccc;
+          padding: 1.2rem;
+          background-color: #ffffff;
+          border-radius: 30px;
+}
+h4 {
+          font-size: 1.3rem;
+          padding: 0.5rem;
+          color: #333;
+}
+h5 {
+          padding: 0.5rem;
+          font-size: 1.2rem;
+          color: rgb(31, 121, 223);
+          text-transform: uppercase;
+}
+.auteur-container {
+          text-align: center;
+}
+.job-info {
+          text-align: justify;
+}
+.fa-chevron-circle-left,
+.fa-chevron-circle-right {
+          font-size: large;
+          margin: 20px;
+          cursor: pointer;
+}
+button {
+          margin: 20px;
+          border: 0;
+          padding: 0.8rem;
+          background-color: #333;
+          color: #fff;
+          border-radius: 10px;
+          cursor: pointer;
+}
